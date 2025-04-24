@@ -1,4 +1,4 @@
-/* Reset some default styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom right, #f0f4ff, #e0d5f5);
+    background: linear-gradient(to bottom right, #738ba3, #e0d5f5);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
     background-color: white;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 40px rgba(7, 7, 7, 0.993);
     text-align: center;
     max-width: 400px;
   }
@@ -26,7 +26,7 @@
   .heading {
     font-size: 3rem;
     font-weight: bold;
-    color: #4f46e5; /* Indigo */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #1509ff; /* Indigo */
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
   }
   
