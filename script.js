@@ -7,7 +7,7 @@ helloButton.addEventListener("click", function () {
 
 
     const message = document.createElement("div");
-    message.textContent = "Hello World";
+    message.textContent = "Hello World again";
 
     const container = document.querySelector(".container");
     container.appendChild(message);
