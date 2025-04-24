@@ -1,7 +1,14 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const button = document.getElementById("helloButton");
+const helloButton = document.getElementById("helloButton");
 
-    button.addEventListener("click", function () {
-        alert("Hello World");
-    });
+
+helloButton.addEventListener("click", function () {
+
+    helloButton.style.display = "none";
+
+
+    const message = document.createElement("div");
+    message.textContent = "Hello World";
+
+    const container = document.querySelector(".container");
+    container.appendChild(message);
 });
